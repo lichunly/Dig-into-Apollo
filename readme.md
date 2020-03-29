@@ -14,9 +14,15 @@ Hereby I would like to thank @[Baidu Apollo](https://github.com/ApolloAuto/apoll
 
 
 #### :performing_arts: 公告
-由于国内目前访问github太慢，网上有通过设置host来加快访问github的攻略，为了方便大家下载代码，现在把代码同步托管到码云上。主线代码可能随时都在更新，因此我会定期同步代码，如果需要稳定版本最好下载tag版本"v5.0.0"。 
+1. 由于目前国内访问github太慢，网上有通过设置host来加快访问github的攻略，为了方便大家下载代码，现在把代码同步托管到码云上。主线代码可能随时都在更新，因此我会定期同步代码，如果需要稳定版本最好下载tag版本"v5.5.0"。  
 
-**码云地址: [apollo](https://gitee.com/daohu527/apollo)**  
+    - **Apollo镜像: [apollo](https://gitee.com/daohu527/apollo)**  
+    - **Dig-into-Apollo镜像: [Dig-into-Apollo](https://gitee.com/daohu527/Dig-into-Apollo)**
+
+2. 为了方便更好的交流和学习自动驾驶相关技术，新建立了微信公众号和交流群，欢迎大家交流分享！  
+
+    - **微信公众号** : 分子运动，或者搜索"fzyd006"  
+
 
 
 ## :ledger: 目录
@@ -175,18 +181,8 @@ Hereby I would like to thank @[Baidu Apollo](https://github.com/ApolloAuto/apoll
     - [总结](simulation#summary)
     - [参考](simulation#reference)
 - [Cyber](cyber)
-    - [How do you design cyber?](cyber#how)
-    - [需求分析](cyber#requirements)
-    - [系统设计](cyber#design)
-      - [随意的假设](cyber#hypothesis)
-      - [多节点](cyber#multinode)
-      - [通信方式](cyber#communication)
-      - [资源调度](cyber#schedule)
-      - [软件复用](cyber#reuse)
-      - [快速测试](cyber#test)
-    - [其他](cyber#other)
-      - [云平台](cyber#cloud)
-    - [Reference](cyber#reference)
+    - [Cyber源码分析](cyber/source)
+    - [Cyber设计思想](cyber/design)
 - [Performance](performance)
     - [线程调度](performance#schedule)
     - [Cgroups](performance#cgroups)
